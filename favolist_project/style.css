@@ -1,0 +1,71 @@
+.body {
+    margin: 0;
+}
+
+#header_layout {
+    background: #1bb4d3;
+    top: 300px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.logo_layout {
+    margin: 0;
+    /* デフォルトCSS打ち消し */
+    font-size: 30px;
+    /* 文字サイズ指定 */
+    position: relative;
+    /* 位置調整 */
+    font-weight: normal;
+    /* 文字の太さ調整 */
+    display: inline-block;
+    /* インラインブロックにする */
+    padding-bottom: 20px;
+    /* 余白指定 */
+}
+
+.logo_layout:before {
+    content: '';
+    /* 空白の要素を作る */
+    background-color: #ffeaac;
+    /* 背景色指定 */
+    display: block;
+    /* ブロック要素にする */
+    position: absolute;
+    /* 位置調整 */
+    left: 0;
+    /* 位置調整 */
+    height: 50px;
+    /* 高さ指定 */
+    width: 50px;
+    /* 幅指定 */
+    border-radius: 50%;
+    /* 丸くする */
+    top: 0;
+    /* 位置調整 */
+    z-index: -1;
+    /* 重なり調整 */
+}
+
+#nav {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+#nav li {
+    width: 140px;
+    text-align: center;
+    background-color: #333;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 2px;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 20px;
+}
