@@ -1,0 +1,78 @@
+.body {
+    margin: 0;
+}
+
+#header_layout {
+    background: #00d2ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    top: 300px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.footer_layout {
+    width: 100%;
+    text-align: center;
+    background: #00d2ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    bottom: 0;
+}
+
+.logo_layout {
+    margin: 0;
+    /* デフォルトCSS打ち消し */
+    font-size: 30px;
+    /* 文字サイズ指定 */
+    position: relative;
+    /* 位置調整 */
+    font-weight: normal;
+    /* 文字の太さ調整 */
+    display: inline-block;
+    /* インラインブロックにする */
+    padding-bottom: 20px;
+    /* 余白指定 */
+    font-family: fantasy;
+}
+
+.login_layout {
+    background: #00d2ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: static
+}
+
+#nav {
+    list-style: none;
+    text-align: center;
+}
+
+#nav li {
+    width: 140px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 2px;
+}
+
+#nav ul li {
+    display: inline;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 2px;
+}
